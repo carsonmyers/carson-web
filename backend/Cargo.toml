@@ -1,0 +1,16 @@
+[package]
+name = "carson-web-backend"
+version = "0.1.0"
+edition = "2021"
+description = "Web backend for myers.sh"
+readme = "README.md"
+repository = "https://github.com/carsonmyers/carson-web/backend"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+axum = "0.6.20"
+shuttle-axum = "0.33.0"
+shuttle-runtime = "0.33.0"
+tokio = "1.28.2"
+tracing = "0.1.40"
+
