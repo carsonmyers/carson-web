@@ -9,4 +9,12 @@ license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
+gloo-console = "0.3.0"
+gloo-timers = "0.3.0"
 yew = { version="0.21", features=["csr"] }
+yew-autoprops = "0.3.0"
+yew-router = "0.18.0"
+
+[build-dependencies]
+anyhow = "1.0.75"
+toml = "0.8.8"

@@ -1,0 +1,10 @@
+name = "main"
+color-steps = 20
+
+[colors]
+red = "#FF6188"
+orange = "#FC9867"
+yellow = "#FFD866"
+green = "#A9DC76"
+blue = "#78DCE8"
+purple = "#AB9DF2"

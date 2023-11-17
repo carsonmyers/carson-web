@@ -1,0 +1,24 @@
+@import "./theme.scss";
+
+h1 {
+  font-family: "Iosevka Custom Thin", monospace;
+  font-weight: normal;
+  margin: 10px 0 10px 20px;
+  .prompt {
+    color: $orange-60;
+  }
+  .cursor {
+    color: $green-50;
+  }
+}
+
+div.app-header {
+  &>div:first-child {
+    :first-child {
+      border-bottom-left-radius: 5px;
+    }
+    :last-child {
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

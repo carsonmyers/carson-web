@@ -1,0 +1,26 @@
+@import "./theme.scss";
+
+div.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  a {
+    display: inline-block;
+    text-align: center;
+    color: $gray-95;
+    font-family: "Iosevka Custom", monospace;
+    text-decoration: none;
+    padding: 0 10px;
+
+    &:hover:not(.current_page) {
+      background-color: $gray-30;
+    }
+
+    &.current_page {
+      font-family: "Iosevka Custom Bold", monospace;
+      color: $yellow-60;
+    }
+  }
+}

@@ -1,0 +1,442 @@
+@use 'sass:color';
+$blue-0: color.change(#78DCE8, $lightness: 0%);
+.fg-blue-0 { color: $blue-0; }
+.bg-blue-0 { background-color: $blue-0; }
+$blue-5: color.change(#78DCE8, $lightness: 5%);
+.fg-blue-5 { color: $blue-5; }
+.bg-blue-5 { background-color: $blue-5; }
+$blue-10: color.change(#78DCE8, $lightness: 10%);
+.fg-blue-10 { color: $blue-10; }
+.bg-blue-10 { background-color: $blue-10; }
+$blue-15: color.change(#78DCE8, $lightness: 15%);
+.fg-blue-15 { color: $blue-15; }
+.bg-blue-15 { background-color: $blue-15; }
+$blue-20: color.change(#78DCE8, $lightness: 20%);
+.fg-blue-20 { color: $blue-20; }
+.bg-blue-20 { background-color: $blue-20; }
+$blue-25: color.change(#78DCE8, $lightness: 25%);
+.fg-blue-25 { color: $blue-25; }
+.bg-blue-25 { background-color: $blue-25; }
+$blue-30: color.change(#78DCE8, $lightness: 30%);
+.fg-blue-30 { color: $blue-30; }
+.bg-blue-30 { background-color: $blue-30; }
+$blue-35: color.change(#78DCE8, $lightness: 35%);
+.fg-blue-35 { color: $blue-35; }
+.bg-blue-35 { background-color: $blue-35; }
+$blue-40: color.change(#78DCE8, $lightness: 40%);
+.fg-blue-40 { color: $blue-40; }
+.bg-blue-40 { background-color: $blue-40; }
+$blue-45: color.change(#78DCE8, $lightness: 45%);
+.fg-blue-45 { color: $blue-45; }
+.bg-blue-45 { background-color: $blue-45; }
+$blue-50: color.change(#78DCE8, $lightness: 50%);
+.fg-blue-50 { color: $blue-50; }
+.bg-blue-50 { background-color: $blue-50; }
+$blue-55: color.change(#78DCE8, $lightness: 55%);
+.fg-blue-55 { color: $blue-55; }
+.bg-blue-55 { background-color: $blue-55; }
+$blue-60: color.change(#78DCE8, $lightness: 60%);
+.fg-blue-60 { color: $blue-60; }
+.bg-blue-60 { background-color: $blue-60; }
+$blue-65: color.change(#78DCE8, $lightness: 65%);
+.fg-blue-65 { color: $blue-65; }
+.bg-blue-65 { background-color: $blue-65; }
+$blue-70: color.change(#78DCE8, $lightness: 70%);
+.fg-blue-70 { color: $blue-70; }
+.bg-blue-70 { background-color: $blue-70; }
+$blue-75: color.change(#78DCE8, $lightness: 75%);
+.fg-blue-75 { color: $blue-75; }
+.bg-blue-75 { background-color: $blue-75; }
+$blue-80: color.change(#78DCE8, $lightness: 80%);
+.fg-blue-80 { color: $blue-80; }
+.bg-blue-80 { background-color: $blue-80; }
+$blue-85: color.change(#78DCE8, $lightness: 85%);
+.fg-blue-85 { color: $blue-85; }
+.bg-blue-85 { background-color: $blue-85; }
+$blue-90: color.change(#78DCE8, $lightness: 90%);
+.fg-blue-90 { color: $blue-90; }
+.bg-blue-90 { background-color: $blue-90; }
+$blue-95: color.change(#78DCE8, $lightness: 95%);
+.fg-blue-95 { color: $blue-95; }
+.bg-blue-95 { background-color: $blue-95; }
+$blue-100: color.change(#78DCE8, $lightness: 100%);
+.fg-blue-100 { color: $blue-100; }
+.bg-blue-100 { background-color: $blue-100; }
+$green-0: color.change(#A9DC76, $lightness: 0%);
+.fg-green-0 { color: $green-0; }
+.bg-green-0 { background-color: $green-0; }
+$green-5: color.change(#A9DC76, $lightness: 5%);
+.fg-green-5 { color: $green-5; }
+.bg-green-5 { background-color: $green-5; }
+$green-10: color.change(#A9DC76, $lightness: 10%);
+.fg-green-10 { color: $green-10; }
+.bg-green-10 { background-color: $green-10; }
+$green-15: color.change(#A9DC76, $lightness: 15%);
+.fg-green-15 { color: $green-15; }
+.bg-green-15 { background-color: $green-15; }
+$green-20: color.change(#A9DC76, $lightness: 20%);
+.fg-green-20 { color: $green-20; }
+.bg-green-20 { background-color: $green-20; }
+$green-25: color.change(#A9DC76, $lightness: 25%);
+.fg-green-25 { color: $green-25; }
+.bg-green-25 { background-color: $green-25; }
+$green-30: color.change(#A9DC76, $lightness: 30%);
+.fg-green-30 { color: $green-30; }
+.bg-green-30 { background-color: $green-30; }
+$green-35: color.change(#A9DC76, $lightness: 35%);
+.fg-green-35 { color: $green-35; }
+.bg-green-35 { background-color: $green-35; }
+$green-40: color.change(#A9DC76, $lightness: 40%);
+.fg-green-40 { color: $green-40; }
+.bg-green-40 { background-color: $green-40; }
+$green-45: color.change(#A9DC76, $lightness: 45%);
+.fg-green-45 { color: $green-45; }
+.bg-green-45 { background-color: $green-45; }
+$green-50: color.change(#A9DC76, $lightness: 50%);
+.fg-green-50 { color: $green-50; }
+.bg-green-50 { background-color: $green-50; }
+$green-55: color.change(#A9DC76, $lightness: 55%);
+.fg-green-55 { color: $green-55; }
+.bg-green-55 { background-color: $green-55; }
+$green-60: color.change(#A9DC76, $lightness: 60%);
+.fg-green-60 { color: $green-60; }
+.bg-green-60 { background-color: $green-60; }
+$green-65: color.change(#A9DC76, $lightness: 65%);
+.fg-green-65 { color: $green-65; }
+.bg-green-65 { background-color: $green-65; }
+$green-70: color.change(#A9DC76, $lightness: 70%);
+.fg-green-70 { color: $green-70; }
+.bg-green-70 { background-color: $green-70; }
+$green-75: color.change(#A9DC76, $lightness: 75%);
+.fg-green-75 { color: $green-75; }
+.bg-green-75 { background-color: $green-75; }
+$green-80: color.change(#A9DC76, $lightness: 80%);
+.fg-green-80 { color: $green-80; }
+.bg-green-80 { background-color: $green-80; }
+$green-85: color.change(#A9DC76, $lightness: 85%);
+.fg-green-85 { color: $green-85; }
+.bg-green-85 { background-color: $green-85; }
+$green-90: color.change(#A9DC76, $lightness: 90%);
+.fg-green-90 { color: $green-90; }
+.bg-green-90 { background-color: $green-90; }
+$green-95: color.change(#A9DC76, $lightness: 95%);
+.fg-green-95 { color: $green-95; }
+.bg-green-95 { background-color: $green-95; }
+$green-100: color.change(#A9DC76, $lightness: 100%);
+.fg-green-100 { color: $green-100; }
+.bg-green-100 { background-color: $green-100; }
+$orange-0: color.change(#FC9867, $lightness: 0%);
+.fg-orange-0 { color: $orange-0; }
+.bg-orange-0 { background-color: $orange-0; }
+$orange-5: color.change(#FC9867, $lightness: 5%);
+.fg-orange-5 { color: $orange-5; }
+.bg-orange-5 { background-color: $orange-5; }
+$orange-10: color.change(#FC9867, $lightness: 10%);
+.fg-orange-10 { color: $orange-10; }
+.bg-orange-10 { background-color: $orange-10; }
+$orange-15: color.change(#FC9867, $lightness: 15%);
+.fg-orange-15 { color: $orange-15; }
+.bg-orange-15 { background-color: $orange-15; }
+$orange-20: color.change(#FC9867, $lightness: 20%);
+.fg-orange-20 { color: $orange-20; }
+.bg-orange-20 { background-color: $orange-20; }
+$orange-25: color.change(#FC9867, $lightness: 25%);
+.fg-orange-25 { color: $orange-25; }
+.bg-orange-25 { background-color: $orange-25; }
+$orange-30: color.change(#FC9867, $lightness: 30%);
+.fg-orange-30 { color: $orange-30; }
+.bg-orange-30 { background-color: $orange-30; }
+$orange-35: color.change(#FC9867, $lightness: 35%);
+.fg-orange-35 { color: $orange-35; }
+.bg-orange-35 { background-color: $orange-35; }
+$orange-40: color.change(#FC9867, $lightness: 40%);
+.fg-orange-40 { color: $orange-40; }
+.bg-orange-40 { background-color: $orange-40; }
+$orange-45: color.change(#FC9867, $lightness: 45%);
+.fg-orange-45 { color: $orange-45; }
+.bg-orange-45 { background-color: $orange-45; }
+$orange-50: color.change(#FC9867, $lightness: 50%);
+.fg-orange-50 { color: $orange-50; }
+.bg-orange-50 { background-color: $orange-50; }
+$orange-55: color.change(#FC9867, $lightness: 55%);
+.fg-orange-55 { color: $orange-55; }
+.bg-orange-55 { background-color: $orange-55; }
+$orange-60: color.change(#FC9867, $lightness: 60%);
+.fg-orange-60 { color: $orange-60; }
+.bg-orange-60 { background-color: $orange-60; }
+$orange-65: color.change(#FC9867, $lightness: 65%);
+.fg-orange-65 { color: $orange-65; }
+.bg-orange-65 { background-color: $orange-65; }
+$orange-70: color.change(#FC9867, $lightness: 70%);
+.fg-orange-70 { color: $orange-70; }
+.bg-orange-70 { background-color: $orange-70; }
+$orange-75: color.change(#FC9867, $lightness: 75%);
+.fg-orange-75 { color: $orange-75; }
+.bg-orange-75 { background-color: $orange-75; }
+$orange-80: color.change(#FC9867, $lightness: 80%);
+.fg-orange-80 { color: $orange-80; }
+.bg-orange-80 { background-color: $orange-80; }
+$orange-85: color.change(#FC9867, $lightness: 85%);
+.fg-orange-85 { color: $orange-85; }
+.bg-orange-85 { background-color: $orange-85; }
+$orange-90: color.change(#FC9867, $lightness: 90%);
+.fg-orange-90 { color: $orange-90; }
+.bg-orange-90 { background-color: $orange-90; }
+$orange-95: color.change(#FC9867, $lightness: 95%);
+.fg-orange-95 { color: $orange-95; }
+.bg-orange-95 { background-color: $orange-95; }
+$orange-100: color.change(#FC9867, $lightness: 100%);
+.fg-orange-100 { color: $orange-100; }
+.bg-orange-100 { background-color: $orange-100; }
+$purple-0: color.change(#AB9DF2, $lightness: 0%);
+.fg-purple-0 { color: $purple-0; }
+.bg-purple-0 { background-color: $purple-0; }
+$purple-5: color.change(#AB9DF2, $lightness: 5%);
+.fg-purple-5 { color: $purple-5; }
+.bg-purple-5 { background-color: $purple-5; }
+$purple-10: color.change(#AB9DF2, $lightness: 10%);
+.fg-purple-10 { color: $purple-10; }
+.bg-purple-10 { background-color: $purple-10; }
+$purple-15: color.change(#AB9DF2, $lightness: 15%);
+.fg-purple-15 { color: $purple-15; }
+.bg-purple-15 { background-color: $purple-15; }
+$purple-20: color.change(#AB9DF2, $lightness: 20%);
+.fg-purple-20 { color: $purple-20; }
+.bg-purple-20 { background-color: $purple-20; }
+$purple-25: color.change(#AB9DF2, $lightness: 25%);
+.fg-purple-25 { color: $purple-25; }
+.bg-purple-25 { background-color: $purple-25; }
+$purple-30: color.change(#AB9DF2, $lightness: 30%);
+.fg-purple-30 { color: $purple-30; }
+.bg-purple-30 { background-color: $purple-30; }
+$purple-35: color.change(#AB9DF2, $lightness: 35%);
+.fg-purple-35 { color: $purple-35; }
+.bg-purple-35 { background-color: $purple-35; }
+$purple-40: color.change(#AB9DF2, $lightness: 40%);
+.fg-purple-40 { color: $purple-40; }
+.bg-purple-40 { background-color: $purple-40; }
+$purple-45: color.change(#AB9DF2, $lightness: 45%);
+.fg-purple-45 { color: $purple-45; }
+.bg-purple-45 { background-color: $purple-45; }
+$purple-50: color.change(#AB9DF2, $lightness: 50%);
+.fg-purple-50 { color: $purple-50; }
+.bg-purple-50 { background-color: $purple-50; }
+$purple-55: color.change(#AB9DF2, $lightness: 55%);
+.fg-purple-55 { color: $purple-55; }
+.bg-purple-55 { background-color: $purple-55; }
+$purple-60: color.change(#AB9DF2, $lightness: 60%);
+.fg-purple-60 { color: $purple-60; }
+.bg-purple-60 { background-color: $purple-60; }
+$purple-65: color.change(#AB9DF2, $lightness: 65%);
+.fg-purple-65 { color: $purple-65; }
+.bg-purple-65 { background-color: $purple-65; }
+$purple-70: color.change(#AB9DF2, $lightness: 70%);
+.fg-purple-70 { color: $purple-70; }
+.bg-purple-70 { background-color: $purple-70; }
+$purple-75: color.change(#AB9DF2, $lightness: 75%);
+.fg-purple-75 { color: $purple-75; }
+.bg-purple-75 { background-color: $purple-75; }
+$purple-80: color.change(#AB9DF2, $lightness: 80%);
+.fg-purple-80 { color: $purple-80; }
+.bg-purple-80 { background-color: $purple-80; }
+$purple-85: color.change(#AB9DF2, $lightness: 85%);
+.fg-purple-85 { color: $purple-85; }
+.bg-purple-85 { background-color: $purple-85; }
+$purple-90: color.change(#AB9DF2, $lightness: 90%);
+.fg-purple-90 { color: $purple-90; }
+.bg-purple-90 { background-color: $purple-90; }
+$purple-95: color.change(#AB9DF2, $lightness: 95%);
+.fg-purple-95 { color: $purple-95; }
+.bg-purple-95 { background-color: $purple-95; }
+$purple-100: color.change(#AB9DF2, $lightness: 100%);
+.fg-purple-100 { color: $purple-100; }
+.bg-purple-100 { background-color: $purple-100; }
+$red-0: color.change(#FF6188, $lightness: 0%);
+.fg-red-0 { color: $red-0; }
+.bg-red-0 { background-color: $red-0; }
+$red-5: color.change(#FF6188, $lightness: 5%);
+.fg-red-5 { color: $red-5; }
+.bg-red-5 { background-color: $red-5; }
+$red-10: color.change(#FF6188, $lightness: 10%);
+.fg-red-10 { color: $red-10; }
+.bg-red-10 { background-color: $red-10; }
+$red-15: color.change(#FF6188, $lightness: 15%);
+.fg-red-15 { color: $red-15; }
+.bg-red-15 { background-color: $red-15; }
+$red-20: color.change(#FF6188, $lightness: 20%);
+.fg-red-20 { color: $red-20; }
+.bg-red-20 { background-color: $red-20; }
+$red-25: color.change(#FF6188, $lightness: 25%);
+.fg-red-25 { color: $red-25; }
+.bg-red-25 { background-color: $red-25; }
+$red-30: color.change(#FF6188, $lightness: 30%);
+.fg-red-30 { color: $red-30; }
+.bg-red-30 { background-color: $red-30; }
+$red-35: color.change(#FF6188, $lightness: 35%);
+.fg-red-35 { color: $red-35; }
+.bg-red-35 { background-color: $red-35; }
+$red-40: color.change(#FF6188, $lightness: 40%);
+.fg-red-40 { color: $red-40; }
+.bg-red-40 { background-color: $red-40; }
+$red-45: color.change(#FF6188, $lightness: 45%);
+.fg-red-45 { color: $red-45; }
+.bg-red-45 { background-color: $red-45; }
+$red-50: color.change(#FF6188, $lightness: 50%);
+.fg-red-50 { color: $red-50; }
+.bg-red-50 { background-color: $red-50; }
+$red-55: color.change(#FF6188, $lightness: 55%);
+.fg-red-55 { color: $red-55; }
+.bg-red-55 { background-color: $red-55; }
+$red-60: color.change(#FF6188, $lightness: 60%);
+.fg-red-60 { color: $red-60; }
+.bg-red-60 { background-color: $red-60; }
+$red-65: color.change(#FF6188, $lightness: 65%);
+.fg-red-65 { color: $red-65; }
+.bg-red-65 { background-color: $red-65; }
+$red-70: color.change(#FF6188, $lightness: 70%);
+.fg-red-70 { color: $red-70; }
+.bg-red-70 { background-color: $red-70; }
+$red-75: color.change(#FF6188, $lightness: 75%);
+.fg-red-75 { color: $red-75; }
+.bg-red-75 { background-color: $red-75; }
+$red-80: color.change(#FF6188, $lightness: 80%);
+.fg-red-80 { color: $red-80; }
+.bg-red-80 { background-color: $red-80; }
+$red-85: color.change(#FF6188, $lightness: 85%);
+.fg-red-85 { color: $red-85; }
+.bg-red-85 { background-color: $red-85; }
+$red-90: color.change(#FF6188, $lightness: 90%);
+.fg-red-90 { color: $red-90; }
+.bg-red-90 { background-color: $red-90; }
+$red-95: color.change(#FF6188, $lightness: 95%);
+.fg-red-95 { color: $red-95; }
+.bg-red-95 { background-color: $red-95; }
+$red-100: color.change(#FF6188, $lightness: 100%);
+.fg-red-100 { color: $red-100; }
+.bg-red-100 { background-color: $red-100; }
+$yellow-0: color.change(#FFD866, $lightness: 0%);
+.fg-yellow-0 { color: $yellow-0; }
+.bg-yellow-0 { background-color: $yellow-0; }
+$yellow-5: color.change(#FFD866, $lightness: 5%);
+.fg-yellow-5 { color: $yellow-5; }
+.bg-yellow-5 { background-color: $yellow-5; }
+$yellow-10: color.change(#FFD866, $lightness: 10%);
+.fg-yellow-10 { color: $yellow-10; }
+.bg-yellow-10 { background-color: $yellow-10; }
+$yellow-15: color.change(#FFD866, $lightness: 15%);
+.fg-yellow-15 { color: $yellow-15; }
+.bg-yellow-15 { background-color: $yellow-15; }
+$yellow-20: color.change(#FFD866, $lightness: 20%);
+.fg-yellow-20 { color: $yellow-20; }
+.bg-yellow-20 { background-color: $yellow-20; }
+$yellow-25: color.change(#FFD866, $lightness: 25%);
+.fg-yellow-25 { color: $yellow-25; }
+.bg-yellow-25 { background-color: $yellow-25; }
+$yellow-30: color.change(#FFD866, $lightness: 30%);
+.fg-yellow-30 { color: $yellow-30; }
+.bg-yellow-30 { background-color: $yellow-30; }
+$yellow-35: color.change(#FFD866, $lightness: 35%);
+.fg-yellow-35 { color: $yellow-35; }
+.bg-yellow-35 { background-color: $yellow-35; }
+$yellow-40: color.change(#FFD866, $lightness: 40%);
+.fg-yellow-40 { color: $yellow-40; }
+.bg-yellow-40 { background-color: $yellow-40; }
+$yellow-45: color.change(#FFD866, $lightness: 45%);
+.fg-yellow-45 { color: $yellow-45; }
+.bg-yellow-45 { background-color: $yellow-45; }
+$yellow-50: color.change(#FFD866, $lightness: 50%);
+.fg-yellow-50 { color: $yellow-50; }
+.bg-yellow-50 { background-color: $yellow-50; }
+$yellow-55: color.change(#FFD866, $lightness: 55%);
+.fg-yellow-55 { color: $yellow-55; }
+.bg-yellow-55 { background-color: $yellow-55; }
+$yellow-60: color.change(#FFD866, $lightness: 60%);
+.fg-yellow-60 { color: $yellow-60; }
+.bg-yellow-60 { background-color: $yellow-60; }
+$yellow-65: color.change(#FFD866, $lightness: 65%);
+.fg-yellow-65 { color: $yellow-65; }
+.bg-yellow-65 { background-color: $yellow-65; }
+$yellow-70: color.change(#FFD866, $lightness: 70%);
+.fg-yellow-70 { color: $yellow-70; }
+.bg-yellow-70 { background-color: $yellow-70; }
+$yellow-75: color.change(#FFD866, $lightness: 75%);
+.fg-yellow-75 { color: $yellow-75; }
+.bg-yellow-75 { background-color: $yellow-75; }
+$yellow-80: color.change(#FFD866, $lightness: 80%);
+.fg-yellow-80 { color: $yellow-80; }
+.bg-yellow-80 { background-color: $yellow-80; }
+$yellow-85: color.change(#FFD866, $lightness: 85%);
+.fg-yellow-85 { color: $yellow-85; }
+.bg-yellow-85 { background-color: $yellow-85; }
+$yellow-90: color.change(#FFD866, $lightness: 90%);
+.fg-yellow-90 { color: $yellow-90; }
+.bg-yellow-90 { background-color: $yellow-90; }
+$yellow-95: color.change(#FFD866, $lightness: 95%);
+.fg-yellow-95 { color: $yellow-95; }
+.bg-yellow-95 { background-color: $yellow-95; }
+$yellow-100: color.change(#FFD866, $lightness: 100%);
+.fg-yellow-100 { color: $yellow-100; }
+.bg-yellow-100 { background-color: $yellow-100; }
+$gray-0: color.change(#CCCCCC, $lightness: 0%);
+.fg-gray-0 { color: $gray-0; }
+.bg-gray-0 { background-color: $gray-0; }
+$gray-5: color.change(#CCCCCC, $lightness: 5%);
+.fg-gray-5 { color: $gray-5; }
+.bg-gray-5 { background-color: $gray-5; }
+$gray-10: color.change(#CCCCCC, $lightness: 10%);
+.fg-gray-10 { color: $gray-10; }
+.bg-gray-10 { background-color: $gray-10; }
+$gray-15: color.change(#CCCCCC, $lightness: 15%);
+.fg-gray-15 { color: $gray-15; }
+.bg-gray-15 { background-color: $gray-15; }
+$gray-20: color.change(#CCCCCC, $lightness: 20%);
+.fg-gray-20 { color: $gray-20; }
+.bg-gray-20 { background-color: $gray-20; }
+$gray-25: color.change(#CCCCCC, $lightness: 25%);
+.fg-gray-25 { color: $gray-25; }
+.bg-gray-25 { background-color: $gray-25; }
+$gray-30: color.change(#CCCCCC, $lightness: 30%);
+.fg-gray-30 { color: $gray-30; }
+.bg-gray-30 { background-color: $gray-30; }
+$gray-35: color.change(#CCCCCC, $lightness: 35%);
+.fg-gray-35 { color: $gray-35; }
+.bg-gray-35 { background-color: $gray-35; }
+$gray-40: color.change(#CCCCCC, $lightness: 40%);
+.fg-gray-40 { color: $gray-40; }
+.bg-gray-40 { background-color: $gray-40; }
+$gray-45: color.change(#CCCCCC, $lightness: 45%);
+.fg-gray-45 { color: $gray-45; }
+.bg-gray-45 { background-color: $gray-45; }
+$gray-50: color.change(#CCCCCC, $lightness: 50%);
+.fg-gray-50 { color: $gray-50; }
+.bg-gray-50 { background-color: $gray-50; }
+$gray-55: color.change(#CCCCCC, $lightness: 55%);
+.fg-gray-55 { color: $gray-55; }
+.bg-gray-55 { background-color: $gray-55; }
+$gray-60: color.change(#CCCCCC, $lightness: 60%);
+.fg-gray-60 { color: $gray-60; }
+.bg-gray-60 { background-color: $gray-60; }
+$gray-65: color.change(#CCCCCC, $lightness: 65%);
+.fg-gray-65 { color: $gray-65; }
+.bg-gray-65 { background-color: $gray-65; }
+$gray-70: color.change(#CCCCCC, $lightness: 70%);
+.fg-gray-70 { color: $gray-70; }
+.bg-gray-70 { background-color: $gray-70; }
+$gray-75: color.change(#CCCCCC, $lightness: 75%);
+.fg-gray-75 { color: $gray-75; }
+.bg-gray-75 { background-color: $gray-75; }
+$gray-80: color.change(#CCCCCC, $lightness: 80%);
+.fg-gray-80 { color: $gray-80; }
+.bg-gray-80 { background-color: $gray-80; }
+$gray-85: color.change(#CCCCCC, $lightness: 85%);
+.fg-gray-85 { color: $gray-85; }
+.bg-gray-85 { background-color: $gray-85; }
+$gray-90: color.change(#CCCCCC, $lightness: 90%);
+.fg-gray-90 { color: $gray-90; }
+.bg-gray-90 { background-color: $gray-90; }
+$gray-95: color.change(#CCCCCC, $lightness: 95%);
+.fg-gray-95 { color: $gray-95; }
+.bg-gray-95 { background-color: $gray-95; }
+$gray-100: color.change(#CCCCCC, $lightness: 100%);
+.fg-gray-100 { color: $gray-100; }
+.bg-gray-100 { background-color: $gray-100; }

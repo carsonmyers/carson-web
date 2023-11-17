@@ -1,0 +1,24 @@
+@import "./theme.scss";
+
+.colorful-bar {
+  width: 100%;
+  display: flex;
+
+  &.hr-left {
+    div:last-child {
+      flex-grow: 1;
+    }
+  }
+
+  &.hr-right {
+    div:first-child {
+      flex-grow: 1;
+    }
+  }
+
+  &.big-top {
+    height: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
