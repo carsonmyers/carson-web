@@ -1,24 +1,25 @@
+@use "sass:color";
 @import "./theme.scss";
 
 h1 {
   font-family: "Iosevka Custom Thin", monospace;
   font-weight: normal;
   margin: 10px 0 10px 20px;
-  .prompt {
-    color: $orange-60;
-  }
-  .cursor {
-    color: $green-50;
+
+  .input {
+    text-shadow: 1px 2px 2px color.change($green-50, $alpha: 0.75);
   }
 }
 
 div.app-header {
+  margin-bottom: 5px;
+
   &>div:first-child {
     :first-child {
-      border-bottom-left-radius: 5px;
+      border-bottom-left-radius: 4px;
     }
     :last-child {
-      border-bottom-right-radius: 5px;
+      border-bottom-right-radius: 4px;
     }
   }
 }

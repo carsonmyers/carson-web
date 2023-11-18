@@ -11,6 +11,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 gloo-console = "0.3.0"
 gloo-timers = "0.3.0"
+web-sys = { version = "0.3.65", features = ["Window", "Location"] }
 yew = { version="0.21", features=["csr"] }
 yew-autoprops = "0.3.0"
 yew-router = "0.18.0"

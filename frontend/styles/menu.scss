@@ -5,6 +5,8 @@ div.menu {
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: $gray-20;
+  margin: 2px 0;
 
   a {
     display: inline-block;
@@ -15,7 +17,7 @@ div.menu {
     padding: 0 10px;
 
     &:hover:not(.current_page) {
-      background-color: $gray-30;
+      background-color: $gray-25;
     }
 
     &.current_page {

@@ -51,24 +51,23 @@ impl Component for Header {
 
     fn view(&self, ctx: &Context<Self>) -> Html {
         let grays = vec![
-            String::from("bg-gray-50"),
-            String::from("bg-gray-30"),
-            String::from("bg-gray-45"),
             String::from("bg-gray-25"),
+            String::from("bg-gray-40"),
+            String::from("bg-gray-30"),
+            String::from("bg-gray-35"),
         ];
 
         html! {
             <div class="app-header">
-                <Hr width={50} height={10} segments={8} />
-                <h1>
-                    <span class="prompt">{ "/home/carson # " }</span>
-                    { &ctx.props().title }
-                    <span class="cursor">{ if self.cursor_visible { "\u{2588}" } else { "" }}</span>
+                <Hr width={50} height={8} segments={8} />
+                <h1 class="fg-green-60">
+                    <span class="fg-gray-50">{ "/home/carson # " }</span>
+                    <span class="input">{ &ctx.props().title }</span>
+                    { if self.cursor_visible { "\u{2588}" } else { "" } }
                 </h1>
 
-                <Hr classes={grays} align={HAlign::Right} width={20} segments={6} />
                 <Menu />
-                <Hr align={HAlign::Right} width={20} segments={6} />
+                <Hr align={HAlign::Right} width={20} height={1} segments={4} />
             </div>
         }
     }

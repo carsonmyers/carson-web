@@ -8,7 +8,7 @@ use crate::components::Page;
 pub fn colors() -> Html {
     html! {
         <Page>
-            <Header title="Colors" blink_interval={1000} />
+            <Header title="cat color_table" blink_interval={1000} />
             <ColorTable />
         </Page>
     }

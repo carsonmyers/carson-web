@@ -302,6 +302,7 @@ dependencies = [
  "gloo-console 0.3.0",
  "gloo-timers 0.3.0",
  "toml",
+ "web-sys",
  "yew",
  "yew-autoprops",
  "yew-router",
